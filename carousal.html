@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO CAROUSAL</title>
+    <style>
+        body{
+            background-color: chocolate;
+
+        }
+        h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+
+
+        .maindiv{
+            display: flex;
+            width: 90%;
+            height: 600px;
+            margin-top: 100px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('Spices.jpg');
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider 15s infinite linear;
+        }
+        @keyframes slider{
+            0%{ background-image: url('Spices.jpg');}
+            35%{ background-image: url('wings.jpg'); }
+            75%{ background-image: url('kebab.jpg'); }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>IMAGE CAROUSAL</h1>
+    <br>
+    <div class="maindiv">
+       
+    </div>
+</body>
+</html>

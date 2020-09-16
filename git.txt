@@ -1,0 +1,12 @@
+git
+create github
+
+click new name and give repository name
+add readme file and create
+click on code and copy link
+create a folder and add git bash
+type git clone and paste the link
+after cloning folder appears
+create a file and open git bash
+move too the file and type git add
+then git commit and git push

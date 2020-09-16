@@ -1,0 +1,4 @@
+header 
+remove contact and reserve
+move home to left
+take div and put 2divs---one div.left for name and div.right for home and contacts
